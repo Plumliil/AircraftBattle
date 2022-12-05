@@ -1,35 +1,50 @@
 import './js/libs/weapp-adapter'
 import './js/libs/symbol'
 import {
+  Home,
   Main
 } from './js/main';
+// import {
+//   scene
+// } from './js/global'
+// import {
+//   Scene
+// } from './js/base/Scene';
+
+// game
+// home
+// more
 
 
+// let scene = "HOME";
+// let sceneMap = new Map();
+// sceneMap.set('HOME', new Home());
+// // sceneMap.set('GAME', new Main());
+
+// console.log(sceneMap);
+
+// function listen() {
+//   if (scene === "HOME") {
+//     // new Home();
+//     sceneMap.delete('GAME');
+//     sceneMap.set('HOME', new Home());
+//     console.log(111);
+//   } else if (scene === "GAME") {
+
+//     sceneMap.delete('HOME');
+//     sceneMap.set('GAME', new Main());
+//     // new Main();
+//   }
+// }
 new Main();
-
-
-
-// const ctx = canvas.getContext('2d');
-
-
-// let img = new Image();
-// img.src = './images/bg.jpg';
-
-// console.log(img.width, img.height);
-
-
-// ctx.fillStyle = 'blue';
-// ctx.strokStyle = "red";
-// ctx.lineWidth = "2px";
-// ctx.fillRect(50, 100, 200, 100)
-
-
-// ctx.font = "32px Arial";
-// ctx.fillText('得分:', 10, 42)
-
-
-// ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
-// // img.onload = () => {
-// //   console.log(img.width, img.height);
-// //   ctx.drawImage(img, 100, 100, img.width, img.height, 0, 0, 500, 900)
-// // }
+// setTimeout(() => {
+//   // scene = 'GAME';
+//   // listen()
+//   sceneMap.delete('HOME');
+//   console.log(sceneMap);
+  
+//   console.log(111);
+//   console.log(scene);
+// }, 1000)
+// // new Scene();
+// // new Main();
